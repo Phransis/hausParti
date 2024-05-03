@@ -1,3 +1,12 @@
+Hello Haupatiers,
+
+This is our community where we can host or search for haupartizs happening around us
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
