@@ -1,12 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
-  font-family: Simple Games,
-    sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(247, 246, 245);
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+/* nav{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 20px 4px 12px;
+  backdrop-filter: blur(5px);
 } */
+#frame-d63f5b5552a3f3d936c6ab970a47899b {
+  height: 624px;
+}
+@media (min-width: 704px) {
+  #frame-d63f5b5552a3f3d936c6ab970a47899b {
+    height: 856px;
+  }
+}
+
+
+
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #525151;
+  
+}
+
+.navBar ul a li{
+  display: inline-block;
+  padding: 10px;
+  font-size: x-large;
+}
+
+.navBar ul a {
+  /* text-decoration: none; */
+  color:rgb(48, 133, 199);
+  padding: 10px;
+}
+
+.navBar ul a:hover{
+  color: rgb(245, 31, 31);
+
+}
+
+.navBar .left,
+.navBar .center,
+.navBar .right {
+  display: flex;
+  align-items: center;
+}
+
+.navBar .center {
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.navBar .right {
+  /* justify-content: flex-end; */
+}
+
+
+
+.navBar .haus,
+.navBar .parti {
+  font-size: 24px;
+}
+
+
+
+
+
+
+@media(max-width: 600px){
+  .navBar ul{
+    max-width: 100%;
+  }
+}
+/* .logo{
+  height: 80px;
+  border-radius: 50%;
+} */
+.haus{
+  color: rgb(245, 31, 31);
+}
+.parti{
+  color:rgb(48, 133, 199);
+}
+.bImage{
+  width: 100%;
+  height: auto;
+}
+  @media(max-width: 600px){
+    .bImage{
+      max-width: 100%;
+    }
+    nav ul a li{
+      color: aqua;
+      display: flex;
+    }
+  }
+
+  .footer{
+    color: aliceblue;
+    background-color: #333333;
+    width: 100%;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr ; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . ."; 
+  }

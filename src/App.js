@@ -7,10 +7,13 @@ import EventDetails from './components/pages/EventDetails';
 import ForgotPassword from './components/pages/ForgotPassword';
 import Login from './components/pages/Login';
 import Register from './components/pages/Register';
+import Header from './components/pages/Header';
+import Footer from './components/pages/Footer';
 
 function App() {
   return (
     <>
+    <Header></Header>
     <Router>
       <Routes>
         <Route path='/' element={<HomePage></HomePage>}></Route>
@@ -22,6 +25,7 @@ function App() {
         <Route path='register' element={<Register></Register>}></Route>
       </Routes>
     </Router>
+    <Footer></Footer>
     </>
   );
 }
