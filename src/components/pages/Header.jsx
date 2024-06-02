@@ -14,14 +14,14 @@ function Header() {
         </div>
         <div className="center">
           <ul>
-            <a href="about">
-              <li>About</li>
+            <a href="Blog">
+              <li>Blog</li>
             </a>
             <a href="/events">
               <li>Events</li>
             </a>
-            <a href="/">
-              <li>Logo</li>
+            <a href="about">
+              <li>About</li>
             </a>
             <a href="/">
               <li>Logo</li>

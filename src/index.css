@@ -130,3 +130,17 @@ body {
     grid-template-areas: 
       ". . ."; 
   }
+
+  .column1 ul a {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    color:rgb(48, 133, 199);
+    padding: 10px;
+  }
+
+  .column1 ul a:hover{
+    color: rgb(245, 31, 31);
+  
+  }
