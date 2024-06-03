@@ -24,14 +24,7 @@ body {
   padding: 4px 20px 4px 12px;
   backdrop-filter: blur(5px);
 } */
-#frame-d63f5b5552a3f3d936c6ab970a47899b {
-  height: 624px;
-}
-@media (min-width: 704px) {
-  #frame-d63f5b5552a3f3d936c6ab970a47899b {
-    height: 856px;
-  }
-}
+
 
 
 
@@ -41,7 +34,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: #525151;
+  backdrop-filter: blur(5px);
+  background-color: rgb(192, 207, 220);;
   
 }
 
@@ -80,8 +74,8 @@ body {
 
 
 
-.navBar .haus,
-.navBar .parti {
+ .haus,
+ .parti {
   font-size: 24px;
 }
 
@@ -121,19 +115,25 @@ body {
 
   .footer{
     color: aliceblue;
-    background-color: #333333;
+    background-color: rgb(192, 207, 220);;
     width: 100%;
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr ; 
+    grid-template-columns: 1fr 1fr 1fr  ; 
     grid-template-rows: 1fr; 
     gap: 0px 0px; 
     grid-template-areas: 
       ". . ."; 
   }
 
+  .column1  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
   .column1 ul a {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     color:rgb(48, 133, 199);
@@ -143,4 +143,15 @@ body {
   .column1 ul a:hover{
     color: rgb(245, 31, 31);
   
+  }
+  .column2, .column3{
+    color:rgb(48, 133, 199);
+    font-size: x-large;
+    font-weight: bolder;
+  }
+
+  .column4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
