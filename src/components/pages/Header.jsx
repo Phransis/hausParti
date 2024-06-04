@@ -4,7 +4,7 @@ function Header() {
   return (
     <>
       <nav className="navBar">
-        <div className="left">
+        <div className="logo">
           <a href="/">
             <span className="haus">haus</span>
             <span className="parti">
@@ -14,17 +14,17 @@ function Header() {
         </div>
         <div className="center">
           <ul>
-            <a href="Blog">
+            <a href="blog">
               <li>Blog</li>
             </a>
             <a href="/events">
               <li>Events</li>
             </a>
+            <a href="past-events">
+              <li>Past Events</li>
+            </a>
             <a href="about">
               <li>About</li>
-            </a>
-            <a href="/">
-              <li>Logo</li>
             </a>
           </ul>
         </div>
