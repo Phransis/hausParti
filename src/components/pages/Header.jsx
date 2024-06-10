@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <>
-      <nav className="navBar">
+      <nav className="navBar h-14 bg-gradient-to-r from-purple-500 to-pink-500">
         <div className="logo">
           <a href="/">
             <span className="haus">haus</span>

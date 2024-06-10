@@ -3,8 +3,8 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <div className="footer mx-auto pt-10 ">
-        <div className="column1">
+      <div className="footer mx-auto pt-10 h-14 bg-gradient-to-r from-purple-500 to-pink-500 ">
+        <div className="column1 h-14 bg-gradient-to-r from-purple-500 to-pink-500">
           <div className="logo ">
             <a href="/">
               <span className="haus">haus</span>
@@ -32,7 +32,7 @@ function Footer() {
         </div>
         {/* <div className="column2">Location</div> */}
         {/* <div className="column3">Subscribe to our newsletters</div> */}
-        <div className="column4">Year</div>
+        {/* <div className="column4 h-14 bg-gradient-to-r from-purple-500 to-pink-500">Year</div> */}
       </div>
     </>
   );
