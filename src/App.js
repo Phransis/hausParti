@@ -9,6 +9,8 @@ import Login from './components/pages/Login';
 import Register from './components/pages/Register';
 import Header from './components/pages/Header';
 import Footer from './components/pages/Footer';
+import Blog from './components/pages/Blog';
+import PastEvents from './components/pages/PastEvents';
 
 function App() {
   return (
@@ -17,9 +19,11 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<HomePage></HomePage>}></Route>
-        <Route path='about' element={<About></About>}></Route>
+        <Route path='blog' element={<Blog></Blog>}></Route>
         <Route path='events' element={<Events></Events>}></Route>
+        <Route path='past-events' element={<PastEvents></PastEvents>}></Route>
         <Route path='event-details/:id' element={<EventDetails></EventDetails>}></Route>
+        <Route path='about' element={<About></About>}></Route>
         <Route path='forgot-password' element={<ForgotPassword></ForgotPassword>}></Route>
         <Route path='login' element={<Login></Login>}></Route>
         <Route path='register' element={<Register></Register>}></Route>
