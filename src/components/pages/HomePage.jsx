@@ -11,9 +11,9 @@ function HomePage() {
   return (
     <>
       <div className="bg-gray-100">
-        <div className="content-uno "></div>
+        {/* <div className="content-uno "></div> */}
         <img
-          className=" container mx-auto pt-10 bImage "
+          className="w-full aspect-video"
           src={Outside}
           alt="Black youth partying"
         ></img>

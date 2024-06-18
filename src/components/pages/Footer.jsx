@@ -3,6 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <>
+    {/* Restructure the footer to suit Tailindcss */}
       <div className="footer ">
         <footer>
 
