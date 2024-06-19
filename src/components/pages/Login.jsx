@@ -22,7 +22,11 @@ function Login() {
           placeat quod! Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Cupiditate tempora quaerat perspiciatis sint delectus animi,
           exercitationem, accusantium vitae obcaecati consequatur beatae. Maxime
-          necessitatibus cum adipisci vel earum quis totam placeat?
+          necessitatibus cum adipisci vel earum quis totam placeat? Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Necessitatibus, in
+          tenetur repellendus totam officiis, sint at voluptatum tempore
+          quisquam quo neque, fugiat optio? Excepturi nihil tempora earum
+          tempore id aliquam!
           <img className="" src={Outside}></img>
         </div>
       </div>
