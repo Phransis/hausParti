@@ -19,17 +19,7 @@ function Login() {
           dolor sit amet, consectetur adipisicing elit. Eveniet ipsa dolorum
           neque, sed obcaecati eligendi molestias itaque maxime quo eos
           recusandae voluptates corrupti optio nemo officiis! Consequatur ab
-          placeat quod! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Cupiditate tempora quaerat perspiciatis sint delectus animi,
-          exercitationem, accusantium vitae obcaecati consequatur beatae. Maxime
-          necessitatibus cum adipisci vel earum quis totam placeat? Lorem ipsum,
-          dolor sit amet consectetur adipisicing elit. Reprehenderit quibusdam
-          dignissimos, harum tenetur ad ipsa minus laborum accusamus aut error
-          illo optio maxime nisi similique et adipisci dicta impedit!
-          Asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Rerum possimus eius quas accusamus quasi, sint eligendi ut rem
-          repellendus dicta nobis eveniet quod placeat illo facere aut laborum
-          reprehenderit fugiat.
+          placeat quod!
           <img className="" src={Outside}></img>
         </div>
       </div>
