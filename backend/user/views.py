@@ -4,5 +4,3 @@ from django.shortcuts import render
 
 def add():
     pass
-def sub():
-    pass
