@@ -7,6 +7,7 @@ function Blog() {
         <div>
             Blog
         </div>
+        
     </div>
    
     </>
